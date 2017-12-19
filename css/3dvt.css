@@ -1,0 +1,24 @@
+#wp_tour_preview.postbox iframe.tdvt-tour {
+	display: block;
+	width: 100%;
+	height: 640px;
+	border-style: none;
+}
+@media (max-width: 1000px) {
+	#wp_tour_preview.postbox iframe.tdvt-tour {
+		height: 420px;
+	}
+}
+@media (max-width: 640px) {
+	#wp_tour_preview.postbox iframe.tdvt-tour {
+		height: 320px;
+	}
+}
+
+#tdvt-shortcode-text {
+	display: block;
+	width: 100%;
+	resize: none;
+	height: 40px;
+	padding: 0.65em 1em;
+}
